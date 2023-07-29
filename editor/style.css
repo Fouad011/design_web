@@ -1,0 +1,144 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    height: 60px;
+    width: 100%;
+    /* padding: 10px 15px 10px 0; */
+    background-image: linear-gradient(to right, black, rgb(217 217 217));
+}
+#logoBox{
+    width: 245px;
+    height: 100%;
+    float: right;
+    /* background: #fafafa; */
+}
+#h1Header{
+    float: left;
+    line-height: 60px;
+    padding: 0 15px;
+    height: 60px;
+}
+#logo{
+    height: 100%;
+}
+header a{
+    color: black;
+}
+nav{
+    /* width: 70%; */
+    text-align: center;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+}
+nav li {
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    line-height: 60px;
+}
+nav a:hover{
+    background-color: white;
+    color: black;
+    height: 100%;
+    width: 100%;
+}
+
+main{
+    text-align: center;
+    margin-top: 10px;
+}
+#codes{
+    width: 95%;
+    min-height: 280px;
+    border-radius: 17px;
+    padding: 7px;
+    border: 2px solid rgb(131, 131, 131);
+}
+
+#buttons{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#buttons button{
+    width: 47%;
+    border-radius: 12px;
+    border: 0px;
+    padding: 12px;
+    font-size: 16px;
+}
+
+#remove{
+    background-color: rgb(255, 30, 30);
+    color: white;
+}
+#remove:hover{
+    background-color: rgb(231, 2, 2);
+    cursor: pointer;
+}
+
+#play{
+    background-color: rgb(39, 39, 39);
+    color: white;
+}
+#play:hover{
+    background-color: rgb(15, 0, 0);
+    cursor: pointer;
+}
+
+#title-result{
+    padding: 10px;
+    border-bottom: 2px solid rgb(131, 131, 131);
+    margin: 8px 0;
+    font-weight: bold;
+}
+
+#result{
+    padding: 10px;
+    max-width: 100% !important;
+}
+
+
+@media only screen and (max-width:750px){
+    header, main{
+        height: auto;
+    }
+    #logoBox{
+        width: 100%;
+        text-align: center;
+    }
+    #h1Header, #logo{
+        float: none;
+    }
+    #articles{
+        width: 100%;
+        background: #fafafa;
+    }
+    aside{
+        width: 100%;
+    }
+    span a{
+        text-decoration: none;
+    }
+    nav{
+        width: 100%;
+    }
+    aside{
+        width: 100%;
+    }
+    #articles{
+        height: 230px;
+    }
+}
+@media only screen and (max-width:500px){
+    nav li{
+        display: block;
+        width: 100%;
+    }
+}

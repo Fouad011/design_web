@@ -1,0 +1,26 @@
+#slider_show{
+    margin-top: 50px;
+    text-align: center;
+}
+
+#slider_show img{
+    width: 500px;
+    height: 375px;
+    object-fit: cover;
+    margin: 15px;
+    border-radius: 7px;
+    box-shadow: 0 13px 21px #8f8f8f;
+}
+p#slider_nbr {
+    background: #cbcbcb;
+    background-clip: content-box;
+    font-size: 27px;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin: 0 auto;
+    border: 5px double #cbcbcb;
+    border-radius: 50%;
+}

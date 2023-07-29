@@ -1,0 +1,140 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+}
+.div_clock{
+    font-size: 16px;
+}
+#clock_section{
+    margin: 0px auto;
+    width: 350px;
+    height: 145px;
+    padding: 2px;
+    background-color: black;
+    padding-top: 50px;
+    border-bottom: 1px solid #e5e5e591;
+    border-radius: 3px;
+    padding-bottom: 45px;
+}
+#clock{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding: 2px;
+    width: 300px;
+    padding-bottom: 53px;
+    margin: 0 auto;
+}
+#start_btn, #turn_btn, #stop_btn, #clear_btn{
+    color: white;
+    font-size: 19px;
+    margin: 5px;
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 3px double #888888;
+}
+#start_btn{
+    float: right;
+    margin-left: 15px;
+    background-color: rgba(0, 192, 0, 0.658);
+    background-clip: padding-box;
+    border: 3px double rgba(0, 192, 0, 0.658);
+    color: #00e400;
+}
+#stop_btn{
+    float: right;
+    margin-left: 15px;
+    background-color: rgba(192, 0, 0, 0.658);
+    background-clip: padding-box;
+    border: 3px double rgb(192, 0, 0, 0.658);
+    color: rgb(192, 0, 0);
+    display: none;
+}
+#turn_btn, #clear_btn{
+    float: left;
+    margin-right: 15px;
+    background-color: rgb(255 255 255 / 33%);
+    background-clip: padding-box;
+    border: 3px double rgb(255 255 255 / 33%);
+}
+#turn_btn{
+    background-color: rgb(255 255 255 / 26%);
+}
+#clear_btn{
+    display: none;
+}
+
+
+/* #start_btn:hover{
+    background: #888888;
+    border: 3px double #888888;
+    color: white;
+}
+#turn_btn:hover{
+    background: #888888;
+    border: 3px double #888888;
+    color: white;
+}
+#stop_btn:hover{
+    background: #888888;
+    border: 3px double #888888;
+    color: white;
+}
+#clear_btn:hover{
+    background: #888888;
+    border: 3px double #888888;
+    color: white;
+} */
+/* #turn_clock{
+    font-size: 25px;
+    margin: 5px;
+    pad: 2px;
+    width: 150px;
+    cursor: pointer;
+} */
+
+
+#turn_result{
+    background-color: black;
+    clear: both;
+    height: 676px;
+    width: 350px;
+    margin: 0 auto;
+    padding: 0px;
+    font-size: 19px;
+    color: white;
+    padding: 2px;
+}
+
+#div_clock{
+    /* background-color: rgb(53, 179, 14); */
+    width: 172px;
+    float: right;
+    text-align: right;
+    padding-right: 10px;
+}
+
+#div_turn{
+    /* background-color: rgb(125, 125, 133); */
+    width: 96px;
+    padding-left: 10px;
+    float: left;
+}
+#result_item {
+    border-bottom: 1px solid #e5e5e591;
+    height: 21px;
+    padding: 10px;
+}
+
+@media screen and (min-width:500px){  /*min-width -- to --> allWidth*/
+    body{
+        background-color: rgb(255, 255, 255);
+    }
+}
