@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radio Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="player">
+        <div id="header">
+            <img src="./icons/logo.png" alt="">
+            <h2 id="title_audio"></h2>
+            <p id="title_radio"></p>
+        </div>
+        <div id="content">
+            <div id="btns">
+                <img src="./icons/back.png" id="back_audio"/>
+                <img src="./icons/play.png" id="play_pause" />
+                <img src="./icons/next.png" id="next_audio"/>
+                <audio src="" id="audio_file"></audio>
+            </div>
+            <div>
+                <div id="volume">
+                    <img src="./icons/volumeUp.png" id="volume_img"/>
+                    <input type="range" id="volume_range" step="2"/>
+                    <div id="volume_value"></div>
+                </div>
+                <div id="speed">
+                    <img src="./icons/speed.png" id="speed_img"/>
+                    <input type="range" id="speed_range" max="8"/>
+                    <div id="speed_value"></div>
+                </div>
+            </div>
+            <div id="color">
+                <button id="color1"></button>
+                <button id="color2"></button>
+                <button id="color3"></button>
+                <button id="color4"></button>
+                <button id="color5"></button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+    <script src="color.js"></script>
+</body>
+</html>
