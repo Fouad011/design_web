@@ -61,7 +61,8 @@
     margin: 0 15px;
 }
 #volume #volume_value{
-    margin: 0 15px;
+    margin: 0 9px;
+    width: 32px;
 }
 
 input[type="range" i] {
