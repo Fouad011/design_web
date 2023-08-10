@@ -2,52 +2,7 @@
     padding: 0px;
     margin: 0px;
 }
-header{
-    height: 60px;
-    width: 100%;
-    /* padding: 10px 15px 10px 0; */
-    background-image: linear-gradient(to right, black, rgb(217 217 217));
-}
-#logoBox{
-    width: 245px;
-    height: 100%;
-    float: right;
-    /* background: #fafafa; */
-}
-#h1Header{
-    float: left;
-    line-height: 60px;
-    padding: 0 15px;
-    height: 60px;
-}
-#logo{
-    height: 100%;
-}
-header a{
-    color: black;
-}
-nav{
-    /* width: 70%; */
-    text-align: center;
-}
-nav a {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    display: inline-block;
-}
-nav li {
-    display: inline-block;
-    width: 100px;
-    text-align: center;
-    line-height: 60px;
-}
-nav a:hover{
-    background-color: white;
-    color: black;
-    height: 100%;
-    width: 100%;
-}
+
 
 main{
     text-align: center;

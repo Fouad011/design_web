@@ -3,24 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>editor html</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <span id="logoBox">
-         <a href=""><h1 id="h1Header">MidoCode</h1></a>
-         <a href=""><img src="img/logo.png" alt="logo" id="logo"></a>
-        </span> 
-
-        <nav>
-            <ul>
-                <li><a href="">link 1</a></li>
-                <li><a href="">link 2</a></li>
-                 <li><a href="">link 3</a></li>
-             </ul>
-        </nav>
-     </header>
+    <div id="container" style="max-width: 1100px; margin: auto;">
+        <header>
+            <nav class="navbar bg-body-tertiary">
+                <div class="container">
+                  <a class="navbar-brand" id="logo_title" href="">
+                    Editor HTML
+                  </a>
+                  <a class="navbar-brand" id="logo_title" href="">
+                    <button class="btn btn-success" >HOME</button>
+                  </a>
+                    
+                </div>
+              </nav>
+        </header>
 
      <main>
         <textarea id="codes" cols="30" rows="10"><html>
@@ -42,7 +43,8 @@
      </main>
 
      <div id="result"></div>
-
+    </div>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
      <script src="script.js"></script>
 </body>
 </html>
