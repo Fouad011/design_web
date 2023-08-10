@@ -48,7 +48,6 @@ class Traduction{
                     <p class="pub_p">${element.paragraphe}</p>
                 </section>
                 `;
-                console.log(element);
             });
         }else if(language == "english"){
             document.getElementById("container").dir = "ltr";
@@ -63,7 +62,6 @@ class Traduction{
                     <p class="pub_p">${element.paragraphe}</p>
                 </section>
                 `;
-                console.log(element);
             });
 
             var pub = document.querySelectorAll(".pub");
